@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version       = ">= 1.2.0"
 
   s.subspec "Core" do |ss|
-    ss.dependency             "Yoga", "= 1.6"
+    ss.dependency             "Yoga", "= 1.7"
     ss.source_files         = "React/**/*.{c,h,m,mm,S,cpp}"
     ss.exclude_files        = "**/__tests__/*",
                               "IntegrationTests/*",
