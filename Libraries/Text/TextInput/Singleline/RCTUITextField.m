@@ -145,12 +145,8 @@
  */
 - (void)setAttributedText:(NSAttributedString *)attributedText
 {
-  BOOL textWasChanged = ![_attributesHolder.string isEqualToString:attributedText.string];
   [_attributesHolder setAttributedString:attributedText];
-
-  if (textWasChanged) {
-    [super setAttributedText:attributedText];
-  }
+  [super setAttributedText:attributedText];
 }
 
 - (NSAttributedString *)attributedText
