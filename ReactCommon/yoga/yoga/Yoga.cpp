@@ -147,7 +147,7 @@ void YGNodeSetContext(YGNodeRef node, void* context) {
   return node->setContext(context);
 }
 
-bool YGNodeHasMeasureFunc(YGNodeRef node) {
+bool YGNodeGetMeasureFunc(YGNodeRef node) {
   return node->hasMeasureFunc();
 }
 
