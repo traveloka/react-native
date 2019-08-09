@@ -50,8 +50,8 @@
     "React-jsiexecutor": [
       "0.60.4"
     ],
-    "Yoga": [
-      "= 1.7"
+    "yoga": [
+      "0.60.4.React"
     ]
   }
 }
